@@ -1,9 +1,8 @@
 const ctrl = {}
 
 ctrl.index = (req,res)=>{
-    console.log('entra1');
     
-    res.send('Index Page')
+    res.render('index')
 };
 
 module.exports = ctrl;
