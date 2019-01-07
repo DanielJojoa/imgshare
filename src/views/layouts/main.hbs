@@ -27,7 +27,9 @@
 
             </div>
             <div class="col-md-4">
-
+                {{>stats this}}
+                {{>popular this}}
+                {{>comments this}}
             </div>
 
         </div>
@@ -40,6 +42,21 @@
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+<script src="/public/js/functions.js"></script>
 </body>
+ <!-- FOOTER -->
+    <footer class="bg-dark text-white">
+      <div class="container p-2">
+        <div class="row">
+          <div class="mx-auto text-center">
+            <p>imgShare.io | &copy; Copyright 2018, All rights reserved</p>
+            <p>
+              <i class="fab fa-twitter-square fa-2x"></i>
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 </html>
